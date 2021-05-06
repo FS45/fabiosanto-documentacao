@@ -20,8 +20,8 @@ from recommonmark.transform import AutoStructify
 project = "Documentação Luban"
 html_title = "Documentação Luban"
 
-copyright = '2021, João Evaristo'
-author = 'João Evaristo'
+copyright = '2021, Fábio Santo'
+author = 'Fábio Santo'
 
 # The full version, including alpha/beta/rc tags
 release = LooseVersion(sphinx_material.__version__).vstring
@@ -79,7 +79,7 @@ html_logo = './equipments/manuais/logos/Logo_Luban.png'
 
 # material theme options (see theme.conf for more information)
 html_theme_options = {
-    "repo_url": "https://github.com/JoaoEvaristo2611/joao-documentacao",
+    "repo_url": "https://github.com/190203008/fabio-documentacao",
     "repo_name": "Documentação Luban",
     "google_analytics_account": "UA-XXXXX",
     "html_minify": False,
