@@ -250,9 +250,11 @@ Se a lâmpada não tiver enroscada, iremos enroscar a lâmpada para que o candee
 #### ***Texto Estruturado***
 ##### 
 ##### **Passos**
-##### 1
+##### 1 Passo
+Comecamos por criar um novo bloco.
 ![](./Programacao/Passos/SLC1.png)
-##### 2
+##### 2 Passo
+De seguida, pressionamos onde diz
 ![](./Programacao/Passos/SLC2.png)
-##### 3
+##### 3 Passo
 ![](./Programacao/Passos/SLC3.png)
