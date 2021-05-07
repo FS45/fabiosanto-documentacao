@@ -10,11 +10,11 @@
         - [Estação 40 ](#estacao-40)
         - [Estação 50 ](#estacao-50)
    - [***Grafcets***](#grafcets)
-        - [Estação 10 Grafcet ](#estacao-10-Grafcet)
-        - [Estação 20 Grafcet ](#estacao-20-Grafcet)
-        - [Estação 30 Grafcet ](#estacao-30-Grafcet) 
-        - [Estação 40 Grafcet ](#estacao-40-Grafcet)
-        - [Estação 50 Grafcet ](#estacao-50-Grafcet)     
+        - [Estação 10 Grafcet ](#Estação-10-Grafcet)
+        - [Estação 20 Grafcet ](#Estação-20-Grafcet)
+        - [Estação 30 Grafcet ](#Estação-30-Grafcet) 
+        - [Estação 40 Grafcet ](#Estação-40-Grafcet)
+        - [Estação 50 Grafcet ](#Estação-50-Grafcet)     
    - [***Fluxograma***](#Fluxograma)
    - [***Processo***](#Processo)
    - [***Manual***](#Manual)
@@ -36,7 +36,7 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 #### Classificacao
 <br /><br />
 
-#### Estacao 10 
+#### Estação 10 
 
 | Tags                      | Inputs  | Legend                       | Tags             |	Outputs  | Legend    |
 ------------------------- | ------- | ---------------------------- | ---------------- | -------- | --------- 
@@ -56,7 +56,7 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 |311920SA                 |I8.7  |Switch ON/OFF              ||                                                
 <br /><br />
 
-#### Estacao 20 	
+#### Estação 20 	
 
 |Tags   |Inputs|	Legend          |		Tags|	Outputs|	Legend       |
 |-------|------|--------------------|-----------|----------|-----------------|
@@ -74,7 +74,7 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 |3120SA	|I1.5  |Switch ON/OFF					
 <br /><br />
 
-#### Estacao 30
+#### Estação 30
 
 |Tags	|Inputs|Legend		            |Tags  |Outputs|Lengend|
 -------|--------|------------------------|------|-------|------------
@@ -90,7 +90,7 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 |3139SA	|I1.5	|Switch ON/OFF       |
 <br /><br />
 
-#### Estacao 40
+#### Estação 40
 
 |Tags	   |Inputs|Legend		           |Tags	  |Outputs|Legend	       |
 |-----------|------|------------------------|----------|-------|----------------|
@@ -115,7 +115,7 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 |3149SA    |I8.7  |Switch ON/OFF           |
 <br /><br />
 
-#### Estacao 50
+#### Estação 50
 
 |Tags	|Inputs	|Legend		       |Tags	|Outputs|Legend|
 --------|-------|------------------|------- |-------|--------------
@@ -136,7 +136,7 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 
 #### Fluxograma
 
-##### Estacao 50
+##### Estação 50
 
 |Individual|Junções|		
  --------- | ----- 
@@ -192,25 +192,25 @@ Miolo Metálico|Corpo Metálico + Miolo Preto = 4
 <br /><br />
 
 ### Processo
-##### Estacao 10
+##### Estação 10
 ![](./Fotos/Estacao_10/plc19.jpg)
 
-##### Estacao 20
+##### Estação 20
 ![](./Fotos/Estacao_20/plc29.jpg)
 [![Watch the video](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5b90d6812c7d3a03f89e83af/images/607431674466ce6ddc5f3904/file-q7JjIf2K8b.png)](https://www.youtube.com/watch?v=d2dZJYXaJlk)
 <br /><br />
 
-##### Estacao 30
+##### Estação 30
 ![](./Fotos/Estacao_30/plc39.jpg)
 [![Watch the video](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5b90d6812c7d3a03f89e83af/images/607431674466ce6ddc5f3904/file-q7JjIf2K8b.png)](https://www.youtube.com/watch?v=OyliRQItgvE)
 <br /><br />
 
-##### Estacao 40
+##### Estação 40
 ![](./Fotos/Estacao_40/plc49.jpg)
 [![Watch the video](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5b90d6812c7d3a03f89e83af/images/607431674466ce6ddc5f3904/file-q7JjIf2K8b.png)](https://www.youtube.com/watch?v=R_4wCR9kkuI)
 <br /><br />
 
-##### Estacao 50
+##### Estação 50
 ![](./Fotos/Estacao_50/plc59.jpg)
 [![Watch the video](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5b90d6812c7d3a03f89e83af/images/607431674466ce6ddc5f3904/file-q7JjIf2K8b.png)](https://www.youtube.com/watch?v=prE_GOUGHNs)
 <br /><br />
@@ -225,6 +225,7 @@ Miolo Metálico|Corpo Metálico + Miolo Preto = 4
 ##### **Conceito**
   Um fluxograma é um diagrama que descreve um processo. É bastante utilizado em várias áreas para documentar, estudar, planear, melhorar e comunicar processos complexos por meio de diagramas claros e fáceis de entender. Nos Fluxogramas usa-se retângulos, ovais, diamantes e muitas outras formas para definir os tipos de passos, assim como setas conectoras para definir fluxo e sequência. Podem ser gráficos simples e desenhados à mão ou diagramas abrangentes desenhados por computador descrevendo as várias etapas e direcao. Os Fluxogramas também são conhecidos por nomes mais especializados, como fluxogramas de processo, mapas de processos, fluxogramas funcionais, notação de modelagem de processos de negócio ou diagramas de fluxo de processos.
  <br /><br />
+ 
 ##### **Simbologia**
 <br /><br />
 Terminal
