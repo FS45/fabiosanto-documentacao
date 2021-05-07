@@ -136,10 +136,10 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 
 #### Fluxograma
 
-##### Estacao 50
+##### Estacao 50 Tabela da treta
 
-|Individual|Junções|		
- --------- | ----- 
+|Individual |Junções |		
+ --- | ---
 Corpo Preto|Corpo Branco + Miolo Branco = 11			
 Corpo Branco|Corpo Branco + Miolo Preto = 3		
 Miolo Preto|Corpo Branco + Miolo Metálico = 15			
