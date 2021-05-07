@@ -37,6 +37,7 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 <br /><br />
 
 #### Estacao 10 
+
 Tags                     |Inputs|Legend                     |Tags            |	Outputs|	Legend|
 -------------------------|------|---------------------------|----------------|----------|----------|	
 Axis_1_Homing_switch     |I0.0  |Fim de Curso(Tras)         |Axis_1_Pulse    |Q0.0|		
@@ -55,7 +56,8 @@ Axis_1_LowHw_LimitSwitch |I0.2  |Sensor de Frente           |3110Y10         |Q0
 311920SA                 |I8.7  |Switch ON/OFF             |
 <br /><br />
 
-#### Estacao 20 						
+#### Estacao 20 	
+
 |Tags   |Inputs|	Legend          |		Tags|	Outputs|	Legend       |
 |-------|------|--------------------|-----------|----------|-----------------|
 |3120B21|I0.0  |Sensor de frente	|3120Y20    |Q0.0	   |Cilindro Superior|	
@@ -73,6 +75,7 @@ Axis_1_LowHw_LimitSwitch |I0.2  |Sensor de Frente           |3110Y10         |Q0
 <br /><br />
 
 #### Estacao 30
+
 |Tags	|Inputs	|Legend		              |Tags	  |Outputs|Lengend      |
 |-------|-------|-------------------------|-------|-------|-------------|	
 |3130B21|I0.0	|Sensor Garra		      |3130Y20|Q0.0	  |Garra        |	
@@ -88,6 +91,7 @@ Axis_1_LowHw_LimitSwitch |I0.2  |Sensor de Frente           |3110Y10         |Q0
 <br /><br />
 
 #### Estacao 40
+
 |Tags	   |Inputs|Legend		           |Tags	  |Outputs|Legend	       |
 -----------|------|------------------------|----------|-------|----------------|
 |314020B11 |I0.0  |Sensor Tubo em cima     |314020Y10 |	Q0.0  |Cilindro Baixo do Tubo|	
@@ -112,6 +116,7 @@ Axis_1_LowHw_LimitSwitch |I0.2  |Sensor de Frente           |3110Y10         |Q0
 <br /><br />
 
 #### Estacao 50
+
 |Tags	|Inputs	|Legend		       |Tags	|Outputs|Legend	                 |
 --------|-------|------------------|------- |-------|------------------------|
 |       |I0.0	|Encoder(Fase A)   |Tapete	|Q0.0	|Motor (Rotação Avancada)|
