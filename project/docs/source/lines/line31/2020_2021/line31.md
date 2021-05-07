@@ -192,6 +192,11 @@ Miolo Metálico|Corpo Metálico + Miolo Preto = 4
 <br /><br />
 
 ### Processo
+<br /><br />
+
+### Foto peca
+![](./Fotos/Peca/peca.png)
+<br /><br />
 ##### Estação 10
 A estacao 10 tem como objetivo o transporte do "corpo" e "miolo" ao longo da *Line 31*. Para esse transporte acontecer ter-se-a que fazer um grafcet(Mencionado acima) e um ladder.
 Esta estacao e controlada por um servo motor que na qual movimenta o apelidado de "Carro", estes movimentos sao feitos atraves de um *Motion Control*.Basicamente para o "Carro" movimentar-se, tive que criar em primeiro lugar um *MC_MoveAbsolute* e comunicar que a **posicao** com o valor **0.0** destinava-se ao inicio do ciclo que o o "Carro" ira fazer,mais resumidamente *Posicao_HOME*.Com esta posicao o carro esta apto para iniciar o seu ciclo, que ira comecar nesta posicao, fazendo a comunicacao, chamada de *PROFINET* com a **Estacao 20**.Esta comunicacao e muito importante , pois ira "dizer" a que momento e que o nosso"carro" pode avancar ou nao para a estacao seguinte. Se a *estacao 20* tiver completo o seu processo iremos entao criar novamente um *MC_MoveAbsolute* com a posicao suficiente para comunicar com a *estacao 30* (Valor=**287.2048**), quando a *estacao 30* tiver feito o seu processo o "carro" vai avancar para a *estacao 40* ate a posicao com o valor igual a **776.1536**, *estacao 40* efetua o seu processo e de seguida o carro transporta a nossa peca(Corpo e miolo) ate a posicao **1051.882**, de seguida o "carro" volta para a sua posicao inicial atraves de um *MC_Home* que tem o valor **0.0** onde iniciara um novo ciclo.
