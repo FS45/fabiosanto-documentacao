@@ -148,7 +148,7 @@ Corpo Plástico|Corpo Preto + Miolo Preto = 1
 Corpo Metálico|Corpo Preto + Miolo Metálico = 13			
 Miolo Plástico|Corpo Metálico + Miolo Branco = 12 			
 Miolo Metálico|Corpo Metálico + Miolo Preto = 4			
-||Corpo Metálico + Miolo Metálico = 16 		
+covid|Corpo Metálico + Miolo Metálico = 16 		
 
 
 ### Grafcets 
