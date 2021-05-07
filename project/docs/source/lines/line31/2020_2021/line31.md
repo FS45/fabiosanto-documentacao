@@ -38,7 +38,7 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 
 #### Estacao 10 
 
-Tags                     |Inputs|Legend                     |Tags            |	Outputs|	Legend|
+|Tags                     |Inputs|Legend                     |Tags            |	Outputs|	Legend|
 |------------------------|------|---------------------------|----------------|----------|----------|	
 |Axis_1_Homing_switch     |I0.0  |Fim de Curso(Tras)         |Axis_1_Pulse    |Q0.0|		
 |Axis_1_HighHw_LimitSwitch|I0.1  |Fim de Curso(Frente)       |Axis_1_Direction|Q0.1|		
@@ -76,7 +76,7 @@ Tags                     |Inputs|Legend                     |Tags            |	O
 
 #### Estacao 30
 
-|Tags	|Inputs	|Legend		              |Tags	  |Outputs|Lengend      |
+|Tags	|Inputs	|Legend		              |Tags	  |Outputs|Lengend|
 |-------|-------|-------------------------|-------|-------|-------------|	
 |3130B21|I0.0	|Sensor Garra		      |3130Y20|Q0.0	  |Garra        |	
 |3130B22|I0.1	|Sensor Garra Fechada     |3130Y10|Q0.2	  |Base         |	
@@ -117,16 +117,16 @@ Tags                     |Inputs|Legend                     |Tags            |	O
 
 #### Estacao 50
 
-|Tags	|Inputs	|Legend		       |Tags	|Outputs|Legend	                 |
+|Tags	|Inputs	|Legend		       |Tags	|Outputs|Legend|
 |--------|-------|------------------|------- |-------|------------------------|
 |       |I0.0	|Encoder(Fase A)   |Tapete	|Q0.0	|Motor (Rotação Avancada)|
 |       |I0.1	|Encoder(Fase B)   |Tapete	|Q0.1	|Motor (Rotação Recuada) |	
-|       |I0.2	|Encoder(Fase C)   |3150Y20	|Q0.4	|Cilindro 1	             |
-|3150B11|I0.3	|Sensor de Material|3150Y30	|Q0.5	|Cilindro 2	             |
-|3150B12|I0.4	|Sensor de Metálico|3150Y40	|Q0.6	|Cilindro 3              |	
-|3150B13|I0.5	|Sensor Otico      |592011  |Q0.7   |Luz Amarela             |
-|3150B21|I0.7   |Sensor(Cilindro 1)|592012  |Q1.0   |Luz Verde               |
-|3150B31|I1.0   |Sensor(Cilindro 2)|592013  |Q1.1   |Luz Laranja             |
+|       |I0.2	|Encoder(Fase C)   |3150Y20	|Q0.4	|Cilindro 1|
+|3150B11|I0.3	|Sensor de Material|3150Y30	|Q0.5	|Cilindro 2|
+|3150B12|I0.4	|Sensor de Metálico|3150Y40	|Q0.6	|Cilindro 3|	
+|3150B13|I0.5	|Sensor Otico      |592011  |Q0.7   |Luz Amarela |
+|3150B21|I0.7   |Sensor(Cilindro 1)|592012  |Q1.0   |Luz Verde  |
+|3150B31|I1.0   |Sensor(Cilindro 2)|592013  |Q1.1   |Luz Laranja|
 |3150B41|I1.1   |Sensor(Cilindro 3)|
 |3159SB2|I1.2	|Stop              |					
 |3159SB1|I1.3	|Start	           |				
@@ -140,13 +140,13 @@ Tags                     |Inputs|Legend                     |Tags            |	O
 |Individual    |	Junções                        |			
 |--------------|-----------------------------------|					
 |Corpo Preto   |Corpo Branco + Miolo Branco =11    |			
-|Corpo Branco  |Corpo Branco + Miolo Preto =3	   |		
+|Corpo Branco  |Corpo Branco + Miolo Preto =3	 |		
 |Miolo Preto   |Corpo Branco + Miolo Metálico =15  |			
 |Miolo Branco  |Corpo Preto + Miolo Branco =9      |			
 |Corpo Plástico|Corpo Preto + Miolo Preto =1       |			
 |Corpo Metálico|Corpo Preto + Miolo Metálico =13   |			
 |Miolo Plástico|Corpo Metálico + Miolo Branco =12  |			
-|Miolo Metálico|Corpo Metálico + Miolo Preto =4	   | 		
+|Miolo Metálico|Corpo Metálico + Miolo Preto =4	 | 		
 |              |Corpo Metálico + Miolo Metálico =16|
 <br /><br />
 
