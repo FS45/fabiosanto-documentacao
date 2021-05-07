@@ -47,8 +47,8 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 |311010B11                |I0.4  |Sensor de Movimento(Cima)  |3110Y20B        |Q0.5|Cilindro Rotacional(Direita)|	
 |311020B20                |I0.5  |Sensor de Rotacao(Esquerda)|3110Y30         |Q0.6|Cilindro Horizontal|	
 |311020B21                |I0.6  |Sensor de Rotacao(Direita) |3110GA          |Q0.7|Fechar Garra|	
-|311030B10                |I0.7  |Sensor de Posicao Avancada |3110GB          |	Q1.0|	Abrir Garra|	
-|311030B11                |I1.0  |Sensor de Posicao Recuada |31192011         |	Q8.5|	Luz Laranja|
+|311030B10                |I0.7  |Sensor de Posicao Avancada |3110GB          |Q1.0|	Abrir Garra|	
+|311030B11                |I1.0  |Sensor de Posicao Recuada |31192011         |Q8.5|	Luz Laranja|
 |3110G10                  |I1.1  |Sensor de Garra           |31192012         |Q8.6|Luz Verde|	
 |311920SB2                |I8.4  |Stop                      |31192013         |Q8.7|Luz Vermelha|	
 |311920SB1                |I8.5  |Start                     |					
