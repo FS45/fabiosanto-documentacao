@@ -138,7 +138,7 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 
 ##### Estacao 50 
 
-|Individual |Junções |		
+| Individual | Junções |		
  --- | ---
 Corpo Preto|Corpo Branco+Miolo Branco=11			
 Corpo Branco|Corpo Branco+Miolo Preto=3		
@@ -150,9 +150,7 @@ Miolo Plástico|Corpo Metálico+Miolo Branco=12
 Miolo Metálico|Corpo Metálico+Miolo Preto=4			
 covid|Corpo Metálico+Miolo Metálico=16
 
-|Individual |Junções |		
- --- | ---
-Teste|Teste
+
 
 
 ### Grafcets 
