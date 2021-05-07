@@ -273,7 +273,7 @@ Para criar as suas Tags, basta pressionar na seta direcionada para baixo e irá 
 ![](./Programacao/Passos/SCL6.png)
 <br /><br />
 
-#### 6 Passo
+#### 5 Passo
 Concluindo que têm, todos os passos anteriores completados,então poderá começar a fazer o texto estruturado.
 ![](./Programacao/Passos/SLC3.png)
 
