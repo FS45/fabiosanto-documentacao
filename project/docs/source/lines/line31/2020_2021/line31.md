@@ -33,12 +33,12 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 
 
 ### Trabalho Realizado
-#### Classificacao
+#### **Classificacao**
 <br /><br />
 
 #### Estação 10 
 
-| Tags                      | Inputs  | Legend                       | Tags             |	Outputs  | Legend    |
+| Tags                      | Inputs  | Legend                      | Tags             |	Outputs  | Legend    |
 ------------------------- | ------- | ---------------------------- | ---------------- | -------- | --------- 
 |Axis_1_Homing_switch     |I0.0  |                           |Axis_1_Pulse    |Q0.0    ||
 |Axis_1_HighHw_LimitSwitch|I0.1  |Fim de Curso(Frente)       |Axis_1_Direction|Q0.1    ||
@@ -151,7 +151,7 @@ Miolo Metálico|Corpo Metálico + Miolo Preto = 4
 ||Corpo Metálico + Miolo Metálico = 16 		
 <br /><br />
 
-### Grafcets 
+### **Grafcets** 
 #### Estação 10 
 ![](./Grafcets/Estacao_10/plc19.svg)
 <br /><br />
@@ -179,7 +179,7 @@ Miolo Metálico|Corpo Metálico + Miolo Preto = 4
 ![](./Grafcets/Estacao_50/plc59semrejeicao.svg)
 <br /><br />
 
-#### Fluxograma
+#### **Fluxograma**
 <br /><br />
 
 ##### Estação 50
