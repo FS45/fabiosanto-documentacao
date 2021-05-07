@@ -118,7 +118,7 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 #### Estacao 50
 
 |Tags	|Inputs	|Legend		       |Tags	|Outputs|Legend|
-|--------|-------|------------------|------- |-------|------------------------|
+--------|-------|------------------|------- |-------|--------------
 |       |I0.0	|Encoder(Fase A)   |Tapete	|Q0.0	|Motor (Rotação Avancada)|
 |       |I0.1	|Encoder(Fase B)   |Tapete	|Q0.1	|Motor (Rotação Recuada) |	
 |       |I0.2	|Encoder(Fase C)   |3150Y20	|Q0.4	|Cilindro 1|
