@@ -149,7 +149,7 @@ Corpo Metálico|Corpo Preto + Miolo Metálico = 13
 Miolo Plástico|Corpo Metálico + Miolo Branco = 12 			
 Miolo Metálico|Corpo Metálico + Miolo Preto = 4			
 ||Corpo Metálico + Miolo Metálico = 16 		
-<br /><br />
+
 
 ### Grafcets 
 #### Estação 10 
