@@ -194,7 +194,7 @@ Miolo Metálico|Corpo Metálico + Miolo Preto = 4
 ### Processo
 <br /><br />
 
-### Foto peca
+#### Foto peca
 ![](./Fotos/Peca/peca.png)
 <br /><br />
 ##### Estação 10
