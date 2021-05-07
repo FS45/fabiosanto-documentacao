@@ -135,22 +135,21 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 <br /><br />
 
 #### Fluxograma
-##### Estacao 50 
 
-| Individual | Junções |		
------ | -----
-Corpo Preto|Corpo Branco+Miolo Branco=11			
-Corpo Branco|Corpo Branco+Miolo Preto=3		
-Miolo Preto|Corpo Branco+Miolo Metálico=15			
-Miolo Branco|Corpo Preto+Miolo Branco=9		
-Corpo Plástico|Corpo Preto+Miolo Preto=1		
-Corpo Metálico|Corpo Preto+Miolo Metálico=13			
-Miolo Plástico|Corpo Metálico+Miolo Branco=12 			
-Miolo Metálico|Corpo Metálico+Miolo Preto=4			
-covid|Corpo Metálico+Miolo Metálico=16
+##### Estacao 50
 
-
-
+|Individual|Junções|		
+ --------- | ----- 
+Corpo Preto|Corpo Branco + Miolo Branco = 11			
+Corpo Branco|Corpo Branco + Miolo Preto = 3		
+Miolo Preto|Corpo Branco + Miolo Metálico = 15			
+Miolo Branco|Corpo Preto + Miolo Branco = 9		
+Corpo Plástico|Corpo Preto + Miolo Preto = 1		
+Corpo Metálico|Corpo Preto + Miolo Metálico = 13			
+Miolo Plástico|Corpo Metálico + Miolo Branco = 12 			
+Miolo Metálico|Corpo Metálico + Miolo Preto = 4			
+||Corpo Metálico + Miolo Metálico = 16 		
+<br /><br />
 
 ### Grafcets 
 #### Estação 10 
@@ -249,13 +248,33 @@ Se a lâmpada não tiver enroscada, iremos enroscar a lâmpada para que o candee
 ![](./Programacao/Passos/CriacaoFluxograma.gif)
 
 #### ***Texto Estruturado***
-##### 
-##### **Passos**
-##### 1 Passo
+ 
+#### **Passos**
+<br /><br />
+
+#### 1 Passo
 Comecamos por criar um novo bloco.
 ![](./Programacao/Passos/SLC1.png)
-##### 2 Passo
-De seguida, pressionamos onde diz
+<br /><br />
+
+#### 2 Passo
+De seguida, pressionamos onde diz FC"Function"(Bloco verde) e selecionamos a linguagem SCL
 ![](./Programacao/Passos/SLC2.png)
-##### 3 Passo
+<br /><br />
+
+#### 3 Passo
+Após o 2 passo deparasse com a janela do bloco criado, pronta a programar. 
+![](./Programacao/Passos/SCL4.png)
+<br /><br />
+
+#### 4 Passo
+Para criar as suas Tags, basta pressionar na seta direcionada para baixo e irá observar a página que estava minimizada.
+![](./Programacao/Passos/SCL5.png)
+![](./Programacao/Passos/SCL6.png)
+<br /><br />
+
+#### 6 Passo
+Concluindo que têm, todos os passos anteriores completados,então poderá começar a fazer o texto estruturado.
 ![](./Programacao/Passos/SLC3.png)
+
+ Fim
