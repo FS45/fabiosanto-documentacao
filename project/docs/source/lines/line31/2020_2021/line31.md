@@ -40,20 +40,20 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 
 Tags                     |Inputs|Legend                     |Tags            |	Outputs|	Legend|
 |------------------------|------|---------------------------|----------------|----------|----------|	
-Axis_1_Homing_switch     |I0.0  |Fim de Curso(Tras)         |Axis_1_Pulse    |Q0.0|		
-Axis_1_HighHw_LimitSwitch|I0.1  |Fim de Curso(Frente)       |Axis_1_Direction|Q0.1|		
-Axis_1_LowHw_LimitSwitch |I0.2  |Sensor de Frente           |3110Y10         |Q0.3|Cilindro Vertical|	
-311010B10                |I0.3  |Sensor de Movimento(Baixo) |3110Y20A        |Q0.4|Cilindro Rotacional(Esquerda)|	
-311010B11                |I0.4  |Sensor de Movimento(Cima)  |3110Y20B        |Q0.5|Cilindro Rotacional(Direita)|	
-311020B20                |I0.5  |Sensor de Rotacao(Esquerda)|3110Y30         |Q0.6|Cilindro Horizontal|	
-311020B21                |I0.6  |Sensor de Rotacao(Direita) |3110GA          |Q0.7|Fechar Garra|	
-311030B10                |I0.7  |Sensor de Posicao Avancada |3110GB          |	Q1.0|	Abrir Garra|	
-311030B11                |I1.0  |Sensor de Posicao Recuada |31192011         |	Q8.5|	Luz Laranja|
-3110G10                  |I1.1  |Sensor de Garra           |31192012         |Q8.6|Luz Verde|	
-311920SB2                |I8.4  |Stop                      |31192013         |Q8.7|Luz Vermelha|	
-311920SB1                |I8.5  |Start                     |					
-311920QS                 |I8.6  |Switch de Emergência      |					
-311920SA                 |I8.7  |Switch ON/OFF             |
+|Axis_1_Homing_switch     |I0.0  |Fim de Curso(Tras)         |Axis_1_Pulse    |Q0.0|		
+|Axis_1_HighHw_LimitSwitch|I0.1  |Fim de Curso(Frente)       |Axis_1_Direction|Q0.1|		
+|Axis_1_LowHw_LimitSwitch |I0.2  |Sensor de Frente           |3110Y10         |Q0.3|Cilindro Vertical|	
+|311010B10                |I0.3  |Sensor de Movimento(Baixo) |3110Y20A        |Q0.4|Cilindro Rotacional(Esquerda)|	
+|311010B11                |I0.4  |Sensor de Movimento(Cima)  |3110Y20B        |Q0.5|Cilindro Rotacional(Direita)|	
+|311020B20                |I0.5  |Sensor de Rotacao(Esquerda)|3110Y30         |Q0.6|Cilindro Horizontal|	
+|311020B21                |I0.6  |Sensor de Rotacao(Direita) |3110GA          |Q0.7|Fechar Garra|	
+|311030B10                |I0.7  |Sensor de Posicao Avancada |3110GB          |	Q1.0|	Abrir Garra|	
+|311030B11                |I1.0  |Sensor de Posicao Recuada |31192011         |	Q8.5|	Luz Laranja|
+|3110G10                  |I1.1  |Sensor de Garra           |31192012         |Q8.6|Luz Verde|	
+|311920SB2                |I8.4  |Stop                      |31192013         |Q8.7|Luz Vermelha|	
+|311920SB1                |I8.5  |Start                     |					
+|311920QS                 |I8.6  |Switch de Emergência      |					
+|311920SA                 |I8.7  |Switch ON/OFF             |
 <br /><br />
 
 #### Estacao 20 	
@@ -138,7 +138,7 @@ Axis_1_LowHw_LimitSwitch |I0.2  |Sensor de Frente           |3110Y10         |Q0
 ##### Estacao 50
 
 |Individual    |	Junções                        |			
-|------------- |-----------------------------------|					
+|--------------|-----------------------------------|					
 |Corpo Preto   |Corpo Branco + Miolo Branco =11    |			
 |Corpo Branco  |Corpo Branco + Miolo Preto =3	   |		
 |Miolo Preto   |Corpo Branco + Miolo Metálico =15  |			
