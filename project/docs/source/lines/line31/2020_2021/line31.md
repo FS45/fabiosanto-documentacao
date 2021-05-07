@@ -77,7 +77,7 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 #### Estacao 30
 
 |Tags	|Inputs|Legend		            |Tags  |Outputs|Lengend|
-|-------|--------|------------------------|------|-------|-------------|	
+-------|--------|------------------------|------|-------|------------
 |3130B21|I0.0	|Sensor Garra		      |3130Y20|Q0.0	  |Garra        |	
 |3130B22|I0.1	|Sensor Garra Fechada     |3130Y10|Q0.2	  |Base         |	
 |3130B11|I0.2	|Sensor de Trás (Base)    |3130Y30|Q0.3	  |Prensa       |	
