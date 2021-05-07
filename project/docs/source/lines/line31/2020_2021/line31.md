@@ -39,7 +39,7 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 #### Estacao 10 
 
 Tags                     |Inputs|Legend                     |Tags            |	Outputs|	Legend|
--------------------------|------|---------------------------|----------------|----------|----------|	
+|------------------------|------|---------------------------|----------------|----------|----------|	
 Axis_1_Homing_switch     |I0.0  |Fim de Curso(Tras)         |Axis_1_Pulse    |Q0.0|		
 Axis_1_HighHw_LimitSwitch|I0.1  |Fim de Curso(Frente)       |Axis_1_Direction|Q0.1|		
 Axis_1_LowHw_LimitSwitch |I0.2  |Sensor de Frente           |3110Y10         |Q0.3|Cilindro Vertical|	
@@ -93,7 +93,7 @@ Axis_1_LowHw_LimitSwitch |I0.2  |Sensor de Frente           |3110Y10         |Q0
 #### Estacao 40
 
 |Tags	   |Inputs|Legend		           |Tags	  |Outputs|Legend	       |
------------|------|------------------------|----------|-------|----------------|
+|-----------|------|------------------------|----------|-------|----------------|
 |314020B11 |I0.0  |Sensor Tubo em cima     |314020Y10 |	Q0.0  |Cilindro Baixo do Tubo|	
 |314020B10 |I0.1  |Sensor Tubo em baixo    |314020Y20 |	Q0.1  |Cilindro Cima do Tubo|	
 |314010B31 |I0.2  |Sensor Prato lado Esq.  |314010R10 |	Q0.2  |Prato	        |
@@ -118,7 +118,7 @@ Axis_1_LowHw_LimitSwitch |I0.2  |Sensor de Frente           |3110Y10         |Q0
 #### Estacao 50
 
 |Tags	|Inputs	|Legend		       |Tags	|Outputs|Legend	                 |
---------|-------|------------------|------- |-------|------------------------|
+|--------|-------|------------------|------- |-------|------------------------|
 |       |I0.0	|Encoder(Fase A)   |Tapete	|Q0.0	|Motor (Rotação Avancada)|
 |       |I0.1	|Encoder(Fase B)   |Tapete	|Q0.1	|Motor (Rotação Recuada) |	
 |       |I0.2	|Encoder(Fase C)   |3150Y20	|Q0.4	|Cilindro 1	             |
