@@ -193,24 +193,30 @@ Miolo Metálico|Corpo Metálico + Miolo Preto = 4
 
 ### Processo
 ##### Estação 10
+A estacao 10 tem como objetivo o transporte do "corpo" e "miolo" ao longo da *Line 31*. Para esse transporte acontecer ter-se-a que fazer um grafcet(Mencionado acima) e um ladder.
+Esta estacao e controlada por um servo motor que na qual movimenta o apelidado de "Carro", estes movimentos sao feitos atraves de um *Motion Control*.Basicamente para o "Carro" movimentar-se, tive que criar em primeiro lugar um *MC_MoveAbsolute* e comunicar que a **posicao** com o valor **0.0** destinava-se ao inicio do ciclo que o o "Carro" ira fazer,mais resumidamente *Posicao_HOME*.Com esta posicao o carro esta apto para iniciar o seu ciclo, que ira comecar nesta posicao, fazendo a comunicacao, chamada de *PROFINET* com a **Estacao 20**.Esta comunicacao e muito importante , pois ira "dizer" a que momento e que o nosso"carro" pode avancar ou nao para a estacao seguinte. Se a *estacao 20* tiver completo o seu processo iremos entao criar novamente um *MC_MoveAbsolute* com a posicao suficiente para comunicar com a *estacao 30* (Valor=**287.2048**), quando a *estacao 30* tiver feito o seu processo o "carro" vai avancar para a *estacao 40* ate a posicao com o valor igual a **776.1536**, *estacao 40* efetua o seu processo e de seguida o carro transporta a nossa peca(Corpo e miolo) ate a posicao **1051.882**, de seguida o "carro" volta para a sua posicao inicial atraves de um *MC_Home* que tem o valor **0.0** onde iniciara um novo ciclo.
 ![](./Fotos/Estacao_10/plc19.jpg)
 
 ##### Estação 20
+A estacao 20, e a estacao onde se identifica e coloca se manualmente o "corpo" atraves de um tubo. Chegando ao fim do tubo, o nosso "Corpo" ira ser "orientado" atraves de um cilindro, cilindro este que so se movimenta,porque um sensor colocado no fim do tubo detetou algo. Apos a detecao do nosso "corpo" chegar o fim do tubo, o cilindro entao ira movimentar se para a frente onde o ira guiar ate que ele seja agarrado pela garra que o nosso "carro" contem. 
 ![](./Fotos/Estacao_20/plc29.jpg)
 [![Watch the video](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5b90d6812c7d3a03f89e83af/images/607431674466ce6ddc5f3904/file-q7JjIf2K8b.png)](https://www.youtube.com/watch?v=d2dZJYXaJlk)
 <br /><br />
 
 ##### Estação 30
+A estacao 30 da *Line 31* tem como objetivo a verificacao de alguma anormalidade.Resumidamente o "corpo" e "largado" na garra, esta garra contem um sensor, que apos 1s deteta e a garra fecha, e de seguida a base movimenta-se para tras, onde a meio desse movimento, teremos uma prensa que verificara se temos algum objeto no interior do nosso "corpo". Nao tendo nada no interior a base ira entao voltar a posicao inicial e abrir a garra para que o nosso corpo seja encaminhado para a proxima estacao.
 ![](./Fotos/Estacao_30/plc39.jpg)
 [![Watch the video](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5b90d6812c7d3a03f89e83af/images/607431674466ce6ddc5f3904/file-q7JjIf2K8b.png)](https://www.youtube.com/watch?v=OyliRQItgvE)
 <br /><br />
 
 ##### Estação 40
+Na estacao 40 temos entao o seguinte processo: Coloca-se manualmente o miolo num tubo que ira ser encaminhado ate um "prato" que ira rodar 180 graus estando ao mesmo novel da garra.Esta garra tem como objetivo a colocacao do "miolo" no interior do nosso "corpo" completando assim a nossa peca. O nosso corpo estara numa base que contem um sensor e e entao a partir dai que o nosso "carro" recebe o sinal de conclusao do processo da estacao 40.
 ![](./Fotos/Estacao_40/plc49.jpg)
 [![Watch the video](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5b90d6812c7d3a03f89e83af/images/607431674466ce6ddc5f3904/file-q7JjIf2K8b.png)](https://www.youtube.com/watch?v=R_4wCR9kkuI)
 <br /><br />
 
 ##### Estação 50
+A estacao 50, a ultima estacao de um ciclo, tem como objetivo a divisao das pecas, pois temos varias juncoes de "corpos" e "miolos".Esta divisao e feita atraves da marcacao de posicoes de um encoder e tambem da detecao de sensores, e claro por um cilindro que ira guiar a peca ate a sua seccao.
 ![](./Fotos/Estacao_50/plc59.jpg)
 [![Watch the video](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5b90d6812c7d3a03f89e83af/images/607431674466ce6ddc5f3904/file-q7JjIf2K8b.png)](https://www.youtube.com/watch?v=prE_GOUGHNs)
 <br /><br />
@@ -254,7 +260,7 @@ Se a lâmpada não tiver enroscada, iremos enroscar a lâmpada para que o candee
 <br /><br />
 
 #### 1 Passo
-Comecamos por criar um novo bloco.
+Começamos por criar um novo bloco.
 ![](./Programacao/Passos/SLC1.png)
 <br /><br />
 
