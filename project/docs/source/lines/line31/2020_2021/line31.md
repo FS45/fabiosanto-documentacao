@@ -40,9 +40,9 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 
 |Tags                     |Inputs|Legend                     |Tags            |	Outputs|	Legend|
 |------------------------|------|---------------------------|----------------|----------|----------|	
-|Axis_1_Homing_switch     |I0.0  |Fim de Curso(Tras)         |Axis_1_Pulse    |Q0.0|		
+|Axis_1_Homing_switch     |I0.0  |         |Axis_1_Pulse    |Q0.0|		
 |Axis_1_HighHw_LimitSwitch|I0.1  |Fim de Curso(Frente)       |Axis_1_Direction|Q0.1|		
-|Axis_1_LowHw_LimitSwitch |I0.2  |Sensor de Frente           |3110Y10         |Q0.3|Cilindro Vertical|	
+|Axis_1_LowHw_LimitSwitch |I0.2  |Fim de Curso(Tras)           |3110Y10         |Q0.3|Cilindro Vertical|	
 |311010B10                |I0.3  |Sensor de Movimento(Baixo) |3110Y20A        |Q0.4|Cilindro Rotacional(Esquerda)|	
 |311010B11                |I0.4  |Sensor de Movimento(Cima)  |3110Y20B        |Q0.5|Cilindro Rotacional(Direita)|	
 |311020B20                |I0.5  |Sensor de Rotacao(Esquerda)|3110Y30         |Q0.6|Cilindro Horizontal|	
