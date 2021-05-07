@@ -51,9 +51,9 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 |311030B11                |I1.0  |Sensor de Posicao Recuada |31192011         |Q8.5|	Luz Laranja|
 |3110G10                  |I1.1  |Sensor de Garra           |31192012         |Q8.6|Luz Verde|	
 |311920SB2                |I8.4  |Stop                      |31192013         |Q8.7|Luz Vermelha|	
-|311920SB1                |I8.5  |Start                     |			   |	   |	           |
-|311920QS                 |I8.6  |Switch de Emergência      |			   |	   |            |
-|311920SA                 |I8.7  |Switch ON/OFF             |                 |    |            |
+|311920SB1                |I8.5  |Start                     |			   	   	           
+|311920QS                 |I8.6  |Switch de Emergência      |			   	               
+|311920SA                 |I8.7  |Switch ON/OFF             |                                
 <br /><br />
 
 #### Estacao 20 	
@@ -76,8 +76,8 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 
 #### Estacao 30
 
-|Tags	|Inputs	|Legend		              |Tags	  |Outputs|Lengend|
-|-------|-------|-------------------------|-------|-------|-------------|	
+|Tags	|Inputs|Legend		            |Tags  |Outputs|Lengend|
+|-------|--------|------------------------|------|-------|-------------|	
 |3130B21|I0.0	|Sensor Garra		      |3130Y20|Q0.0	  |Garra        |	
 |3130B22|I0.1	|Sensor Garra Fechada     |3130Y10|Q0.2	  |Base         |	
 |3130B11|I0.2	|Sensor de Trás (Base)    |3130Y30|Q0.3	  |Prensa       |	
@@ -139,15 +139,15 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 ##### Estacao 50
 
 |Individual|		Junções	|		
-|-----------|------------------|					
-Corpo Preto|		Corpo Branco + Miolo Branco =11|			
-Corpo Branco|		Corpo Branco + Miolo Preto =3	|		
-Miolo Preto|		Corpo Branco + Miolo Metálico =15|			
-Miolo Branco|		Corpo Preto + Miolo Branco =9	|		
-Corpo Plástico|		Corpo Preto + Miolo Preto =1	|		
-Corpo Metálico|		Corpo Preto + Miolo Metálico =13|			
-Miolo Plástico	|	Corpo Metálico + Miolo Branco =12|			
-Miolo Metálico	|	Corpo Metálico + Miolo Preto =4|			
+|----------|-----------------|					
+Corpo Preto|Corpo Branco + Miolo Branco =11|			
+Corpo Branco|Corpo Branco + Miolo Preto =3	|		
+Miolo Preto|Corpo Branco + Miolo Metálico =15|			
+Miolo Branco|Corpo Preto + Miolo Branco =9	|		
+Corpo Plástico|Corpo Preto + Miolo Preto =1	|		
+Corpo Metálico|Corpo Preto + Miolo Metálico =13|			
+Miolo Plástico	|Corpo Metálico + Miolo Branco =12|			
+Miolo Metálico	|Corpo Metálico + Miolo Preto =4|			
 ||Corpo Metálico + Miolo Metálico =16	|		
 <br /><br />
 
