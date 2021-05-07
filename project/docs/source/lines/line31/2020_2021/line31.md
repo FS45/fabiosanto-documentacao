@@ -38,8 +38,8 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 
 #### Estacao 10 
 
-|Tags                     |Inputs|Legend                     |Tags            |	Outputs|	Legend|
-|------------------------|------|---------------------------|----------------|----------|----------|	
+|Tags                     |Inputs|Legend                     |Tags            |	Outputs|	Legend  |
+|-------------------------|------|---------------------------|----------------|--------|----------|	
 |Axis_1_Homing_switch     |I0.0  |         |Axis_1_Pulse    |Q0.0|		
 |Axis_1_HighHw_LimitSwitch|I0.1  |Fim de Curso(Frente)       |Axis_1_Direction|Q0.1|		
 |Axis_1_LowHw_LimitSwitch |I0.2  |Fim de Curso(Tras)           |3110Y10         |Q0.3|Cilindro Vertical|	
@@ -135,6 +135,7 @@ A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resul
 <br /><br />
 
 #### Fluxograma
+
 ##### Estacao 50
 
 |Individual|		Junções	|		
