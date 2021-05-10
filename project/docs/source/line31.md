@@ -194,7 +194,7 @@ Miolo Metálico|Corpo Metálico + Miolo Preto = 4
 ### Processo
 <br /><br />
 
-
+<<<<<<< HEAD:project/docs/source/lines/line31/2020_2021/line31.md
 #### Foto peça
 ![](./Fotos/Peca/peca.png)
 <br /><br />
@@ -206,7 +206,7 @@ Esta estação é controlada por um servo motor que na qual movimenta o apelidad
 ##### Estação 20
 A estação 20, é a estação onde se identifica e coloca-se manualmente o "corpo" através de um tubo. Chegando ao fim do tubo, o nosso "Corpo" irá ser "orientado" através de um cilindro, cilindro este que só se movimenta,porque um sensor colocado no fim do tubo detetou algo. Após a detecção do nosso "corpo" chegar ao fim do tubo, o cilindro então irá movimentar-se para a frente onde o irá guiar até que ele seja agarrado pela garra que o nosso "carro" contêm. 
 ![](./Fotos/Estacao_20/plc29.jpg)
-
+=======
 #### Foto peca
 ![](./lines/line31/2020_2021/Fotos/Peca/peca.png)
 <br /><br />
@@ -238,7 +238,7 @@ Na estação 40 temos então o seguinte processo: Coloca-se manualmente o miolo 
 <br /><br />
 
 ##### Estação 50
-
+<<<<<<< HEAD:project/docs/source/lines/line31/2020_2021/line31.md
 A estação 50, a última estação de um ciclo, têm como objetivo a divisão das peças, pois temos varias junções de "corpos" e "miolos".Esta divisão é feita através da marcação de posições de um encoder e também da detecção de sensores, e claro por um cilindro que irá guiar a peça até à sua secção.
 ![](./Fotos/Estacao_50/plc59.jpg)
 [![Watch the video](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5b90d6812c7d3a03f89e83af/images/607431674466ce6ddc5f3904/file-q7JjIf2K8b.png)](https://www.youtube.com/watch?v=prE_GOUGHNs)
