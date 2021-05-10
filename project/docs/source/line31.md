@@ -237,21 +237,21 @@ Miolo Metálico|Corpo Metálico + Miolo Preto = 4
 
 (*Corpo Metalico*)
 
-IF #CorpoB13 = #Corpo_B THEN
-    IF #CorpoB12 = #Corpo_M THEN
-        IF #MioloB13 = #Miolo_P THEN
+    IF #CorpoB13 = #Corpo_B THEN
+         IF #CorpoB12 = #Corpo_M THEN
+            IF #MioloB13 = #Miolo_P THEN
             #Classificacao := 4;
-        ELSE
-            IF #MioloB13 = #Miolo_B THEN
-                IF #MioloB12 = #Miolo_M THEN
+            ELSE
+                IF #MioloB13 = #Miolo_B THEN
+                   IF #MioloB12 = #Miolo_M THEN
                     #Classificacao := 16;
-                ELSE
-                    IF #MioloB12 = #Miolo_PL THEN
-                        #Classificacao := 12;
+                   ELSE
+                       IF #MioloB12 = #Miolo_PL THEN
+                           #Classificacao := 12;
                     END_IF;
-                END_IF;
-            END_IF;
-        END_IF;
+               END_IF;
+          END_IF;
+    END_IF;
 (*Corpo Branco*)
     ELSE
 
