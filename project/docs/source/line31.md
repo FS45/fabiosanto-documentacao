@@ -253,6 +253,7 @@ Miolo Metálico|Corpo Metálico + Miolo Preto = 4
           END_IF;
     END_IF;
 (*Corpo Branco*)
+
     ELSE
 
         IF #MioloB13 = #Miolo_P THEN
