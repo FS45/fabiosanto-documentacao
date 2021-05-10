@@ -355,11 +355,13 @@ Seta de Fluxo
 Decisão
 ![](./lines/line31/2020_2021/Programacao/Passos/4.svg)
 <br /><br />
+
 Criar um ***fluxograma***
+
 <br /><br />
-Em baixo temos uma figura com um exemplo de um fluxograma,onde podemos observar que o objetivo é descobrir o porquê de um candeeiro não acender.
+Em baixo têm uma figura com um exemplo de um fluxograma,onde pode observar que o objetivo é descobrir o porquê de um candeeiro não acender.
 Interpreta-se da seguinte forma este ***Fluxograma***.
-Se a lâmpada não tiver enroscada, iremos enroscar a lâmpada para que o candeeiro acenda, caso isso não aconteca(sabemos que a lâmpada está bem enroscada) teremos que ver a outra decisão, ver se a lâmpada esta fundida. Se a lâmpada estiver fundida chegamos à conclusão que teremos que comprar um novo candeeiro.
+Se a lâmpada não tiver enroscada, irá enroscar a lâmpada para que o candeeiro acenda, caso isso não aconteça (sabe-se que a lâmpada está bem enroscada) teremos que ver a outra decisão, ver se a lâmpada está fundida. Se a lâmpada estiver fundida chegamos à conclusão que teremos que comprar um novo candeeiro.
 <br /><br />
 ![](./lines/line31/2020_2021/Programacao/Passos/CriacaoFluxograma.gif)
 
@@ -369,12 +371,12 @@ Se a lâmpada não tiver enroscada, iremos enroscar a lâmpada para que o candee
 <br /><br />
 
 #### 1 Passo
-Começamos por criar um novo bloco.
+Começa-se por criar um novo bloco.
 ![](./lines/line31/2020_2021/Programacao/Passos/SLC1.png)
 <br /><br />
 
 #### 2 Passo
-De seguida, pressionamos onde diz FC"Function"(Bloco verde) e selecionamos a linguagem SCL
+De seguida, pressiona onde diz FC"Function"(Bloco verde) e seleciona a linguagem SCL
 ![](./lines/line31/2020_2021/Programacao/Passos/SLC2.png)
 <br /><br />
 
@@ -390,7 +392,7 @@ Para criar as suas Tags, basta pressionar na seta direcionada para baixo e irá 
 <br /><br />
 
 #### 5 Passo
-Concluindo que têm, todos os passos anteriores completados,então poderá começar a fazer o texto estruturado.
+Concluindo que têm, todos os passos anteriores completos,então poderá começar a fazer o texto estruturado.
 ![](./lines/line31/2020_2021/Programacao/Passos/SLC3.png)
 
  Fim
