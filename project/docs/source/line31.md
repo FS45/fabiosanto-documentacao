@@ -153,30 +153,30 @@ Miolo Metálico|Corpo Metálico + Miolo Preto = 4
 
 ### **Grafcets** 
 #### Estação 10 
-![](./Grafcets/Estacao_10/plc19.svg)
+![](./lines/line31/2020_2021/Grafcets/Estacao_10/plc19.svg)
 <br /><br />
 
 #### Estação 20
-![](./Grafcets/Estacao_20/plc29.svg)
+![](./lines/line31/2020_2021/Grafcets/Estacao_20/plc29.svg)
 <br /><br />
 
 #### Estação 30
-![](./Grafcets/Estacao_30/plc39.svg)
+![](./lines/line31/2020_2021/Grafcets/Estacao_30/plc39.svg)
 <br /><br />
 
 #### Estação 40
-![](./Grafcets/Estacao_40/plc49.svg)
+![](./lines/line31/2020_2021/Grafcets/Estacao_40/plc49.svg)
 <br /><br />
 
 ##### Estação 50
 <br /><br />
 
 ##### Com Rejeicao
-![](./Grafcets/Estacao_50/plc59comrejeicao.svg)
+![](./lines/line31/2020_2021/Grafcets/Estacao_50/plc59comrejeicao.svg)
 <br /><br />
 
 ##### Sem rejeicao
-![](./Grafcets/Estacao_50/plc59semrejeicao.svg)
+![](./lines/line31/2020_2021/Grafcets/Estacao_50/plc59semrejeicao.svg)
 <br /><br />
 
 #### **Fluxograma**
@@ -184,15 +184,16 @@ Miolo Metálico|Corpo Metálico + Miolo Preto = 4
 
 ##### Estação 50
 ###### Fluxograma Inteiro
-![](./Fluxograma/Estacao_50/Fluxograma(Inteiro).svg)
+![](./lines/line31/2020_2021/Fluxograma/Estacao_50/Fluxograma(Inteiro).svg)
 <br /><br />
 
 ###### Fluxograma por Partes
-![](./Fluxograma/Estacao_50/Fluxograma(Partes).svg)
+![](./lines/line31/2020_2021/Fluxograma/Estacao_50/Fluxograma(Partes).svg)
 <br /><br />
 
 ### Processo
 <br /><br />
+
 
 #### Foto peça
 ![](./Fotos/Peca/peca.png)
@@ -205,6 +206,21 @@ Esta estação é controlada por um servo motor que na qual movimenta o apelidad
 ##### Estação 20
 A estação 20, é a estação onde se identifica e coloca-se manualmente o "corpo" através de um tubo. Chegando ao fim do tubo, o nosso "Corpo" irá ser "orientado" através de um cilindro, cilindro este que só se movimenta,porque um sensor colocado no fim do tubo detetou algo. Após a detecção do nosso "corpo" chegar ao fim do tubo, o cilindro então irá movimentar-se para a frente onde o irá guiar até que ele seja agarrado pela garra que o nosso "carro" contêm. 
 ![](./Fotos/Estacao_20/plc29.jpg)
+
+#### Foto peca
+![](./lines/line31/2020_2021/Fotos/Peca/peca.png)
+<br /><br />
+
+##### Estação 10
+A estação 10 têm como objetivo o transporte do "corpo" e "miolo" ao longo da *Line 31*. Para esse transporte acontecer ter-se-á que fazer um grafcet (mencionado acima) e um ladder.
+Esta estação é controlada por um servo motor que na qual movimenta o apelidado de "Carro". Estes movimentos são feitos através de um *Motion Control*.Basicamente para o "Carro" movimentar-se, tive que criar em primeiro lugar um *MC_MoveAbsolute* e comunicar que a **posição** com o valor **0.0** destinava-se ao inicio do ciclo que o "Carro" irá fazer,mais resumidamente *Posição_HOME*.Com esta posição o carro está apto para iniciar o seu ciclo, que irá começar nesta posição, fazendo a comunicação, chamada de *PROFINET* com a **Estação 20**.Esta comunicação é muito importante , pois irá "dizer" a que momento o nosso"carro" pode avançar ou não para a estação seguinte. Se a *estação 20* tiver completo o seu processo iremos então criar novamente um *MC_MoveAbsolute* com a posição suficiente para comunicar com a *estação 30* (Valor=**287.2048**), quando a *estação 30* tiver feito o seu processo o "carro" vai avançar para a *estação 40* até á posição com o valor igual a **776.1536**, *estação 40* efetua o seu processo e de seguida o carro transporta a nossa peça(Corpo e miolo) até à posição **1051.882**, de seguida o "carro" volta para a sua posição inicial através de um *MC_Home* que têm o valor **0.0** onde iniciará um novo ciclo.
+
+![](./lines/line31/2020_2021/Fotos/Estacao_10/plc19.jpg)
+
+##### Estação 20
+A estação 20, é a estação onde se identifica e coloca-se manualmente o "corpo" através de um tubo. Chegando ao fim do tubo, o nosso "Corpo" irá ser "orientado" através de um cilindro, cilindro este que só se movimenta,porque um sensor colocado no fim do tubo detetou algo. Após a detecção do nosso "corpo" chegar ao fim do tubo, o cilindro então irá movimentar-se para a frente onde o irá guiar até que ele seja agarrado pela garra que o nosso "carro" contêm.
+![](./lines/line31/2020_2021/Fotos/Estacao_20/plc29.jpg)
+
 [![Watch the video](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5b90d6812c7d3a03f89e83af/images/607431674466ce6ddc5f3904/file-q7JjIf2K8b.png)](https://www.youtube.com/watch?v=d2dZJYXaJlk)
 <br /><br />
 
@@ -215,12 +231,14 @@ A estação 30 da *Line 31* têm como objetivo a verificação de alguma anormal
 <br /><br />
 
 ##### Estação 40
+
 Na estação 40 temos então o seguinte processo: Coloca-se manualmente o miolo num tubo que irá ser encaminhado até um "prato" que irá rodar 180 graus estando ao mesmo nivel da garra.Esta garra têm como objetivo a colocação do "miolo" no interior do nosso "corpo" completando assim a nossa peça. O nosso corpo estará numa base que contêm um sensor e é então a partir dai que o nosso "carro" recebe o sinal de conclusão do processo da estação 40.
 ![](./Fotos/Estacao_40/plc49.jpg)
 [![Watch the video](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5b90d6812c7d3a03f89e83af/images/607431674466ce6ddc5f3904/file-q7JjIf2K8b.png)](https://www.youtube.com/watch?v=R_4wCR9kkuI)
 <br /><br />
 
 ##### Estação 50
+
 A estação 50, a última estação de um ciclo, têm como objetivo a divisão das peças, pois temos varias junções de "corpos" e "miolos".Esta divisão é feita através da marcação de posições de um encoder e também da detecção de sensores, e claro por um cilindro que irá guiar a peça até à sua secção.
 ![](./Fotos/Estacao_50/plc59.jpg)
 [![Watch the video](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5b90d6812c7d3a03f89e83af/images/607431674466ce6ddc5f3904/file-q7JjIf2K8b.png)](https://www.youtube.com/watch?v=prE_GOUGHNs)
@@ -240,16 +258,16 @@ A estação 50, a última estação de um ciclo, têm como objetivo a divisão d
 ##### **Simbologia**
 <br /><br />
 Terminal
-![](./Programacao/Passos/1.svg)
+![](./lines/line31/2020_2021/Programacao/Passos/1.svg)
 <br /><br />
 Processo
-![](./Programacao/Passos/2.svg)
+![](./lines/line31/2020_2021/Programacao/Passos/2.svg)
 <br /><br />
 Seta de Fluxo
-![](./Programacao/Passos/3.svg)
+![](./lines/line31/2020_2021/Programacao/Passos/3.svg)
 <br /><br />
 Decisão
-![](./Programacao/Passos/4.svg)
+![](./lines/line31/2020_2021/Programacao/Passos/4.svg)
 <br /><br />
 Criar um ***fluxograma***
 <br /><br />
@@ -257,7 +275,7 @@ Em baixo temos uma figura com um exemplo de um fluxograma,onde podemos observar 
 Interpreta-se da seguinte forma este ***Fluxograma***.
 Se a lâmpada não tiver enroscada, iremos enroscar a lâmpada para que o candeeiro acenda, caso isso não aconteca(sabemos que a lâmpada está bem enroscada) teremos que ver a outra decisão, ver se a lâmpada esta fundida. Se a lâmpada estiver fundida chegamos à conclusão que teremos que comprar um novo candeeiro.
 <br /><br />
-![](./Programacao/Passos/CriacaoFluxograma.gif)
+![](./lines/line31/2020_2021/Programacao/Passos/CriacaoFluxograma.gif)
 
 #### ***Texto Estruturado***
  
@@ -266,27 +284,27 @@ Se a lâmpada não tiver enroscada, iremos enroscar a lâmpada para que o candee
 
 #### 1 Passo
 Começamos por criar um novo bloco.
-![](./Programacao/Passos/SLC1.png)
+![](./lines/line31/2020_2021/Programacao/Passos/SLC1.png)
 <br /><br />
 
 #### 2 Passo
 De seguida, pressionamos onde diz FC"Function"(Bloco verde) e selecionamos a linguagem SCL
-![](./Programacao/Passos/SLC2.png)
+![](./lines/line31/2020_2021/Programacao/Passos/SLC2.png)
 <br /><br />
 
 #### 3 Passo
 Após o 2 passo deparasse com a janela do bloco criado, pronta a programar. 
-![](./Programacao/Passos/SCL4.png)
+![](./lines/line31/2020_2021/Programacao/Passos/SCL4.png)
 <br /><br />
 
 #### 4 Passo
 Para criar as suas Tags, basta pressionar na seta direcionada para baixo e irá observar a página que estava minimizada.
-![](./Programacao/Passos/SCL5.png)
-![](./Programacao/Passos/SCL6.png)
+![](./lines/line31/2020_2021/Programacao/Passos/SCL5.png)
+![](./lines/line31/2020_2021/Programacao/Passos/SCL6.png)
 <br /><br />
 
 #### 5 Passo
 Concluindo que têm, todos os passos anteriores completados,então poderá começar a fazer o texto estruturado.
-![](./Programacao/Passos/SLC3.png)
+![](./lines/line31/2020_2021/Programacao/Passos/SLC3.png)
 
  Fim
