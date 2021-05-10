@@ -238,7 +238,6 @@ Miolo Metálico|Corpo Metálico + Miolo Preto = 4
 (*Corpo Metalico*)
 
 IF #CorpoB13 = #Corpo_B THEN
-
     IF #CorpoB12 = #Corpo_M THEN
         IF #MioloB13 = #Miolo_P THEN
             #Classificacao := 4;
@@ -268,7 +267,7 @@ IF #CorpoB13 = #Corpo_B THEN
     END_IF;
 (*Corpo Preto*)
 
-ELSE
+ ***ELSE***
 
     IF #CorpoB13 = #Corpo_P THEN
         IF #MioloB13 = #Miolo_P THEN
@@ -281,7 +280,7 @@ ELSE
             END_IF;
         END_IF;
     END_IF;
-END_IF;
+***END_IF;***
 <br /><br />
 <br /><br />
 
