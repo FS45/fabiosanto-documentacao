@@ -194,48 +194,44 @@ Miolo Metálico|Corpo Metálico + Miolo Preto = 4
 #### Texto Estruturado
 (* Testa corpo PosB13*)
 
-IF #Posicao = #PosB13a THEN
 
-    IF #B13 THEN
-        #CorpoB13 := #Corpo_B;
-    ELSE
-        #CorpoB13 := #Corpo_P;
+    IF #Posicao = #PosB13a THEN
+        IF #B13 THEN
+            #CorpoB13 := #Corpo_B;
+        ELSE
+            #CorpoB13 := #Corpo_P;
+        END_IF;
     END_IF;
-END_IF;
 
 (* Testa miolo PosB13*)
 
-IF #Posicao = #PosB13b THEN
-
-    IF #B13 THEN
-        #MioloB13 := #Miolo_B;
-    ELSE
-        #MioloB13 := #Miolo_P;
+    IF #Posicao = #PosB13b THEN 
+       IF #B13 THEN
+           #MioloB13 := #Miolo_B;
+       ELSE
+           #MioloB13 := #Miolo_P;
+       END_IF;
     END_IF;
-END_IF;
         
 (* Testa corpo PosB12*)
 
-IF #Posicao = #PosB12a THEN
-
-
-    IF #B12 THEN
-        #CorpoB12 := #Corpo_M;
-    ELSE
-        #CorpoB12 := #Corpo_PL;
+    IF #Posicao = #PosB12a THEN
+       IF #B12 THEN
+           #CorpoB12 := #Corpo_M;
+       ELSE
+           #CorpoB12 := #Corpo_PL;
+       END_IF;
     END_IF;
-END_IF;
 
 (* Testa miolo PosB12*)
 
-IF #Posicao = #PosB12b THEN
-
-    IF #B12 THEN
-        #MioloB12 := #Miolo_M;
-    ELSE
-        #MioloB12 := #Miolo_PL;
+    IF #Posicao = #PosB12b THEN
+       IF #B12 THEN
+           #MioloB12 := #Miolo_M;
+       ELSE
+           #MioloB12 := #Miolo_PL;
+       END_IF;
     END_IF;
-END_IF;
 
 (*Funcao Principal*)
 
