@@ -17,7 +17,7 @@
 ##### **Simbologia**
 <br /><br />
 Terminal
-![](./lines/line31/2020_2021/Programacao/Passos/1.svg)
+![](./Fotos/1.svg)
 <br /><br />
 Processo
 ![](./lines/line31/2020_2021/Programacao/Passos/2.svg)
