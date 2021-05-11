@@ -3,7 +3,7 @@
 ### **Indice**
 - [**Introdução**](#introducao)
 - [**Trabalho Realizado**](#trabalho-realizado)
-   - [***Classificacao***](#Classificacao)
+   - [***Classificação***](#Classificação)
         - [Estação 10 ](#estacao-10)
         - [Estação 20 ](#estacao-20)
         - [Estação 30 ](#estacao-30) 
@@ -30,10 +30,11 @@
 ### Introdução
 
 A Line 31 é uma das Lines do Grupo 30. Dividida em 5 estações das quais resultam: **"Transporte"**,**"Pressurização"**, **"Alimentação (Corpo e Miolo)"** e **"Seleção"**.
-
+![](./lines/line31/2020_2021/Fotos/Line_31/LINE31.jpg)
+<br /><br />
 
 ### Trabalho Realizado
-#### **Classificacao**
+#### **Classificação**
 <br /><br />
 
 #### Estação 10 
