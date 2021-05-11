@@ -17,6 +17,7 @@
         - [Estação 50 Grafcet ](#estação-50-Grafcet)     
    - [***Fluxograma***](#Fluxograma)
    - [***Processo***](#Processo)
+        - [***Comunicacoes Profinet***](#Comunicacoes-Profinet)
    - [***Manual***](#Manual)
         - [**Fluxograma**](#Fluxograma)
           - [Conceito ](#Conceito)
@@ -329,6 +330,36 @@ A estação 50, a última estação de um ciclo, têm como objetivo a divisão d
 
 ![](./lines/line31/2020_2021/Fotos/Estacao_50/plc59.jpg)
 [![Watch the video](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5b90d6812c7d3a03f89e83af/images/607431674466ce6ddc5f3904/file-q7JjIf2K8b.png)](https://www.youtube.com/watch?v=prE_GOUGHNs)
+<br /><br />
+
+#### ***Comunicacoes Profinet***
+
+IO Controller|		I-Device|
+-|-
+PLC19 |		PLC29
+I 100  <---------	|	Q 101
+ Q 102 ---------->	|	I 101
+I 102 <----------	|	Q 103
+<br /><br />
+
+IO Controller	|	I-Device|
+-|-
+PLC19	|	PLC39
+I 103 <---------|	Q 105
+ Q 104 --------->|		I 104
+<br /><br />
+
+ IO Controller|		I-Device|
+ -|-
+PLC19|		PLC49
+Q 109 ---------->	|	I 112
+I 112 <---------	|	Q 109
+Q 110 ---------->	|	I 113
+I 113 <---------	|	Q110
+Q 114 ---------->	|	I111
+I 111 <---------	|	Q 114
+Q 115 ---------->	|	I 115
+I 115 <---------	|	Q 115
 <br /><br />
 
 ####  Funcionamento Completo do Processo 
