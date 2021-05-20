@@ -17,7 +17,8 @@
         - [Estação 50 Grafcet ](#estação-50-Grafcet)     
    - [***Fluxograma***](#Fluxograma)
    - [***Processo***](#Processo)
-        - [***Comunicacoes Profinet***](#Comunicacoes-Profinet)
+        - [***Comunicações Profinet***](#Comunicações-Profinet)
+   - [***HMI(Human-Machine Interface)***](#HMI-(Human-Machine-Interface))  
    - [***Manual***](#Manual)
         - [**Fluxograma**](#Fluxograma)
           - [Conceito ](#Conceito)
@@ -380,6 +381,12 @@ QDW105 ------> IDW106
 
 [![Watch the video](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5b90d6812c7d3a03f89e83af/images/607431674466ce6ddc5f3904/file-q7JjIf2K8b.png)](https://www.youtube.com/watch?v=cZmzsauwzSk)
 <br /><br />
+
+### **HMI(Human-Machine Interface)**
+
+![](./lines/line31/2020_2021/HMI/Fotos/HMI.jpg)
+<br /><br />
+HMI significa interface homem-máquina e consiste em um painel que permite a um usuário se comunicar com uma máquina, um programa de computador ou um sistema.
 
 ### ***Manual***
 #### **Fluxograma**
