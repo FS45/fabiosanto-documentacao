@@ -332,9 +332,51 @@ A estação 50, a última estação de um ciclo, têm como objetivo a divisão d
 [![Watch the video](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5b90d6812c7d3a03f89e83af/images/607431674466ce6ddc5f3904/file-q7JjIf2K8b.png)](https://www.youtube.com/watch?v=prE_GOUGHNs)
 <br /><br />
 
-#### ***Comunicacoes Profinet***
+#### ***Comunicações Profinet***
+O PROFINET é um protocolo baseado em Ethernet para conectar dispositivos de processo – sensores, atuadores etc – aos sistemas de controlo.
+<br /><br />
 
-####  Funcionamento Completo do Processo 
+***Memórias-Profinet***
+
+*PLC 29*
+
+**Inputs:**
+
+ IDW100 <------ QDW101
+<br /><br />
+
+**Outputs:**
+
+QDW100 ------> IDW100
+<br /><br />
+
+---------------------------
+*PLC 39*
+
+**Inputs:**
+
+ IDW104 <------ QDW104
+<br /><br />
+
+**Outputs:**
+
+QDW104 ------> IDW104
+<br /><br />
+
+------------------------
+*PLC 49*
+
+**Inputs:**
+
+ IDW106 <------ QDW105
+<br /><br />
+
+**Outputs:**
+
+QDW105 ------> IDW106
+<br /><br />
+
+####  **Funcionamento Completo do Processo**
 
 [![Watch the video](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5b90d6812c7d3a03f89e83af/images/607431674466ce6ddc5f3904/file-q7JjIf2K8b.png)](https://www.youtube.com/watch?v=cZmzsauwzSk)
 <br /><br />
