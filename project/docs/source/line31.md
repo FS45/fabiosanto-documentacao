@@ -385,16 +385,25 @@ QDW105 ------> IDW106
 ### **HMI(Human-Machine Interface)**
 
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI.jpg)
+![](./lines/line31/2020_2021/HMI/Fotos/HMI10.png)
 <br /><br />
 HMI significa interface homem-máquina e consiste em um painel que permite a um usuário se comunicar com uma máquina, um programa de computador ou um sistema.
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI1.jpg)
+![](./lines/line31/2020_2021/HMI/Fotos/HMI11.png)
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI2.jpg)
+![](./lines/line31/2020_2021/HMI/Fotos/HMI12.png)
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI3.jpg)
+![](./lines/line31/2020_2021/HMI/Fotos/HMI18.png)
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI4.jpg)
+![](./lines/line31/2020_2021/HMI/Fotos/HMI13.png)
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI5.jpg)
+![](./lines/line31/2020_2021/HMI/Fotos/HMI14.png)
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI6.jpg)
+![](./lines/line31/2020_2021/HMI/Fotos/HMI15.png)
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI7.jpg)
+![](./lines/line31/2020_2021/HMI/Fotos/HMI16.png)
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI8.jpg)
+![](./lines/line31/2020_2021/HMI/Fotos/HMI17.png)
 
 ### ***Manual***
 #### **Fluxograma**
