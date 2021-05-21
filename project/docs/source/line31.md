@@ -383,11 +383,12 @@ QDW105 ------> IDW106
 <br /><br />
 
 ### **HMI(Human-Machine Interface)**
-
+**HMI** significa interface homem-máquina e consiste em um painel que permite a um usuário se comunicar com uma máquina, um programa de computador ou um sistema.
+<br /><br />
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI.jpg)
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI10.png)
 <br /><br />
-HMI significa interface homem-máquina e consiste em um painel que permite a um usuário se comunicar com uma máquina, um programa de computador ou um sistema.
+
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI1.jpg)
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI11.png)
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI2.jpg)
