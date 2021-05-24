@@ -383,7 +383,10 @@ QDW105 ------> IDW106
 <br /><br />
 
 ### **HMI(Human-Machine Interface)**
-**HMI** significa interface homem-máquina e consiste em um painel que permite a um usuário se comunicar com uma máquina, um programa de computador ou um sistema.
+**HMI** significa interface homem-máquina e consiste em um painel que permite um usuário comunicar com uma máquina, um programa de computador ou um sistema.
+Em um ambiente industrial, uma HMI pode ter vários formatos. Ela pode ser um ecra independente, um painel conectado a outro equipamento ou um tablet. Seja qual for sua aparência, sua principal finalidade é permitir aos usuários visualizarem dados sobre operações e controlarem o equipamento.
+<br /><br />
+Na **HMI** configurada por mim, iremos ter 9 ecras.Um deles sera o ecra inicial (Root Screen), que tera conexao com 5 ecras que tem o objetivo e a finalidade de comandar cada cilindro de cada estacao, com 2 ecras que tem o objetivo de fazer testes e movimentar a estacao 19 e por fim um ecra que tera objetivo de se tornar mais facil a utilizacao da **HMI** utilizando assim 5 botoes com connecao para cada PLC.
 <br /><br />
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI.jpg)
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI10.png)
