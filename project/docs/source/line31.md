@@ -389,25 +389,70 @@ Em um ambiente industrial, uma HMI pode ter vários formatos. Ela pode ser um ec
 Na **HMI** configurada por mim, iremos ter 9 ecras.Um deles sera o ecra inicial (Root Screen), que tera conexao com 5 ecras que tem o objetivo e a finalidade de comandar cada cilindro de cada estacao, com 2 ecras que tem o objetivo de fazer testes e movimentar a estacao 19 e por fim um ecra que tera objetivo de se tornar mais facil a utilizacao da **HMI** utilizando assim 5 botoes com connecao para cada PLC.
 <br /><br />
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI.jpg)
+*Imagem 1 - HMI*
+<br /><br />
+Na imagem 1 e 2, observa-se o ecra principal (Root Screen) da **HMI**. Este ecra tem como objetivo direcionar o utilizador para os outros ecras. Como se pode observar, existem 3 icones a cinzento, numa barra inferior em que o utilizador basta pressionar e este troca de vista. 
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI10.png)
+*Imagem 2 - TIA Portal*
+<br /><br />
 <br /><br />
 
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI1.jpg)
+*Imagem 3 - HMI*
+<br /><br />
+Nas imagens 3 e 4 podemos observar que contem 5 blocos, todos eles com o objetivo de fazer movimentar a nossa estacao 10. No 1°bloco temos 2 icones que estao associados ao MC_Power, atraves do seu *Data Block*, fazendo o Enable e o Disable da estacao. No 2°bloco temos 2 icones que estao associados ao MC_MoveJog, atraves do seu *Data Block*, fazendo com que, se o utilizador pressionar um desses icones a estacao ira movimentar-se para a frente, se pressionar o icone com o nome *Jog Forw*, se pressionar o icone com o nome *Jog Backw* ele ira movimentar-se para tras. No 3°bloco, temos 1 icone e 1 amostrador ,que estao associados ao MC_Home, atraves do seu *Data Block*. Se o utilizador pressionar o icone que tem o nome de Servo Home, a estacao 10 ira movimentar-se para a posicao *HOME*, ou seja posicao 0.0. No amostrador ira estar o valor da posicao da estacao 10 no preciso momento.
+No bloco ,com o nome de Move Absolute, temos 2 amostradores e 1 icone, com o nome de Start. Os amostradores dao-nos os valores que o utilizador quer atingir, e por fim o icone, se o utilizador pressiona-lo, a estacao 10 ira movimentar-se ate aos valores mencionados nos dois amostradores. No bloco ,com o nome de Move Relative, temos 2 amostradores e 1 icone, com o nome de Start. Os amostradores dao-nos os valores que o utilizador quer atingir, e por fim o icone, se o utilizador pressiona-lo, a estacao 10 ira movimentar-se ate aos valores mencionados nos dois amostradores.
+No canto inferior direito encontra-se um icone, que se o utilizador pressionar, ele direciona-se para outro ecra.
+<br /><br />
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI11.png)
+*Imagem 4 - TIA Portal*
+<br /><br />
+<br /><br />
+
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI2.jpg)
+*Imagem 5 - HMI*
+<br /><br />
+Nas imagens 5 e 6 podemos observar que conteem 6 blocos, na qual dois deles sao iguais aos blocos das imagens 3 e 4. Os restantes 4 blocos , tem um icone, nomeado de Start, e se o utilizador pressionar, a estacao 10 ira movimentar-se ate a estacao que o bloco indica.
+No canto inferior direito encontra-se um icone, que se o utilizador pressionar, ele direciona-se para outro ecra.
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI12.png)
+*Imagem 6 - TIA Portal*
+<br /><br />
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI3.jpg)
+*Imagem 7 - HMI*
+<br /><br />
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI18.png)
+*Imagem 8 - TIA Portal*
+<br /><br />
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI4.jpg)
+*Imagem 9 - HMI*
+<br /><br />
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI13.png)
+*Imagem 10 - TIA Portal*
+<br /><br />
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI5.jpg)
+*Imagem 11 - HMI*
+<br /><br />
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI14.png)
+*Imagem 12 - TIA Portal*
+<br /><br />
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI6.jpg)
+*Imagem 13 - HMI*
+<br /><br />
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI15.png)
+*Imagem 14 - TIA Portal*
+<br /><br />
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI7.jpg)
+*Imagem 15 - HMI*
+<br /><br />
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI16.png)
+*Imagem 16 - TIA Portal*
+<br /><br />
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI8.jpg)
+*Imagem 17 - HMI*
+<br /><br />
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI17.png)
+*Imagem 18 - TIA Portal*
+<br /><br />
 
 ### ***Manual***
 #### **Fluxograma**
