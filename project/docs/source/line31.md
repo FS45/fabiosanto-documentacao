@@ -18,6 +18,7 @@
    - [***Fluxograma***](#Fluxograma)
    - [***Processo***](#Processo)
         - [***Comunicações Profinet***](#Comunicações-Profinet)
+        - [***Programação de servo no TIA Portal***](#Programação-de-servo-no-TIA-Portal)
    - [***HMI(Human-Machine Interface)***](#HMI-(Human-Machine-Interface))  
    - [***Manual***](#Manual)
         - [**Fluxograma**](#Fluxograma)
@@ -377,6 +378,25 @@ QDW104 ------> IDW104
 QDW105 ------> IDW106
 <br /><br />
 
+#### **Programação de servo no TIA Portal**
+Para programação de um servo o TIA Portal disponibiliza um conjunto de blocos  (sub-rotinas)  de  controlo  de  movimento  (Motion  Control)  que  permitem integrar de forma fácil e prático o servo ao programa.
+<br /><br />
+![](./lines/line31/2020_2021/Motion_Control/Fotos/MC_Power.png)
+<br /><br />
+![](./lines/line31/2020_2021/Motion_Control/Fotos/MC_Home.png)
+<br /><br />
+![](./lines/line31/2020_2021/Motion_Control/Fotos/MC_MoveJog.png)
+<br /><br />
+![](./lines/line31/2020_2021/Motion_Control/Fotos/MC_MoveAbsolute.png)
+<br /><br />
+![](./lines/line31/2020_2021/Motion_Control/Fotos/MC_MoveRelative.png)
+<br /><br />
+![](./lines/line31/2020_2021/Motion_Control/Fotos/MC_Halt.png)
+<br /><br />
+![](./lines/line31/2020_2021/Motion_Control/Fotos/MC_Reset.png)
+
+<br /><br />
+
 ####  **Funcionamento Completo do Processo**
 
 [![Watch the video](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5b90d6812c7d3a03f89e83af/images/607431674466ce6ddc5f3904/file-q7JjIf2K8b.png)](https://www.youtube.com/watch?v=cZmzsauwzSk)
@@ -531,5 +551,7 @@ Para criar as suas Tags, basta pressionar na seta direcionada para baixo e irá 
 #### 5 Passo
 Concluindo que têm, todos os passos anteriores completos,então poderá começar a fazer o texto estruturado.
 ![](./lines/line31/2020_2021/Programacao/Passos/SLC3.png)
+<br /><br />
 
- Fim
+#### **HMI(Human-Machine Interface)**
+
