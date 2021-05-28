@@ -381,18 +381,35 @@ QDW105 ------> IDW106
 #### **Programação de servo no TIA Portal**
 Para programação de um servo o TIA Portal disponibiliza um conjunto de blocos  (sub-rotinas)  de  controlo  de  movimento  (Motion  Control)  que  permitem integrar de forma fácil e prático o servo ao programa.
 <br /><br />
-![](./lines/line31/2020_2021/Motion_Control/Fotos/MC_Power.png)
 <br /><br />
+
+O bloco *MC_Power*, é responsavel por alimentar/ligar o servo, sem este estar ligado, nao sera possivel executar nenhum movimento.
+
+![](./lines/line31/2020_2021/Motion_Control/Fotos/MC_Power.png)
+
+<br /><br />
+ O bloco *MC_Home* é responsável por calibrar a posição **Home** levando o servo até ao sensor de *Homing* configurado e de seguida atribui a essa posição um valor absoluto que pode ser configurado na variável *Position*.
+
 ![](./lines/line31/2020_2021/Motion_Control/Fotos/MC_Home.png)
 <br /><br />
+O bloco *MC_MoveJog* permite mover o servo nos dois sentidos (frente e trás) apenas enviando sinais para a entrada própria do sentido em que se pretende mover o servo. Se executarmos o *Jog_Forward* o servo ira movimentar-se para a frente, se executarmos o *Jog_Backward* o servo ira movimentar-se para tras.
+
 ![](./lines/line31/2020_2021/Motion_Control/Fotos/MC_MoveJog.png)
 <br /><br />
+O bloco *MC_MoveAbsolute* é responsável por mover o servo até uma coordenada absoluta, independentemente da atual coordenada.
+
 ![](./lines/line31/2020_2021/Motion_Control/Fotos/MC_MoveAbsolute.png)
 <br /><br />
+O bloco *MC_MoveRelative* é responsável por mover o servo a uma determinada distancia de coordenadas a partir da coordenada atual do servo.
+
 ![](./lines/line31/2020_2021/Motion_Control/Fotos/MC_MoveRelative.png)
 <br /><br />
+ O bloco *MC_Halt* permite ao programa parar movimentos do servo antes do mesmo os concluir.
+
 ![](./lines/line31/2020_2021/Motion_Control/Fotos/MC_Halt.png)
 <br /><br />
+O bloco *MC_Reset* confirma uma mensagem de erro. A memória de erro é apagada para que fique disponível para "novas mensagens" de erro.
+
 ![](./lines/line31/2020_2021/Motion_Control/Fotos/MC_Reset.png)
 
 <br /><br />
