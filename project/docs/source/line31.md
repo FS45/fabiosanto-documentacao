@@ -572,5 +572,6 @@ Concluindo que têm, todos os passos anteriores completos,então poderá começa
 
 #### **HMI(Human-Machine Interface)**
 ![](./lines/line31/2020_2021/HMI/Manual/1.jpg)
+
 Nesta figura, encontra-se varias imagens na qual, cada uma representa um passo ate chegar a HMI configurada no *TIA Portal*.
 NOTA: As imagens estao colocadas por ordem no sentido vertical.
