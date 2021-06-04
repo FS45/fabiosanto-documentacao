@@ -436,7 +436,7 @@ Na imagem 1 e 2, observa-se o ecra principal (Root Screen) da **HMI**. Este ecra
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI1.jpg)
 *Imagem 3 - HMI*
 <br /><br />
-Nas imagens 3 e 4 podemos observar que contem 5 blocos, todos eles com o objetivo de fazer movimentar a nossa estacao 10. No 1°bloco temos 2 icones que estao associados ao MC_Power, atraves do seu *Data Block*, fazendo o Enable e o Disable da estacao. No 2°bloco temos 2 icones que estao associados ao MC_MoveJog, atraves do seu *Data Block*, fazendo com que, se o utilizador pressionar um desses icones a estacao ira movimentar-se para a frente, se pressionar o icone com o nome *Jog Forw*, se pressionar o icone com o nome *Jog Backw* ele ira movimentar-se para tras. No 3°bloco, temos 1 icone e 1 amostrador ,que estao associados ao MC_Home, atraves do seu *Data Block*. Se o utilizador pressionar o icone que tem o nome de Servo Home, a estacao 10 ira movimentar-se para a posicao *HOME*, ou seja posicao 0.0. No amostrador ira estar o valor da posicao da estacao 10 no preciso momento.
+Nas imagens 3 e 4 podemos observar que contem 5 blocos, todos eles com o objetivo de fazer movimentar a nossa estacao 10. No 1°bloco temos 2 icones que estao associados ao MC_Power, atraves do seu *Data Block*, fazendo o Enable e o Disable da estacao. No 2°bloco temos 2 icones que estao associados ao MC_MoveJog, atraves do seu *Data Block*, fazendo com que, se o utilizador pressionar um desses icones a estacao ira movimentar-se para a frente, se pressionar o icone com o nome *Jog Forw*, se pressionar o icone com o nome *Jog Backw* ele ira movimentar-se para tras. No 3°bloco, temos 1 icone e 1 amostrador ,que estao associados ao MC_Home, atraves do seu *Data Block*. Se o utilizador pressionar o icone que tem o nome de Servo Home, a estacao 10 ira movimentar-se para a posicao *HOME*, ou seja posicao 0.0. No amostrador ira e star o valor da posicao da estacao 10 no preciso momento.
 No bloco ,com o nome de Move Absolute, temos 2 amostradores e 1 icone, com o nome de Start. Os amostradores dao-nos os valores que o utilizador quer atingir, e por fim o icone, se o utilizador pressiona-lo, a estacao 10 ira movimentar-se ate aos valores mencionados nos dois amostradores. No bloco ,com o nome de Move Relative, temos 2 amostradores e 1 icone, com o nome de Start. Os amostradores dao-nos os valores que o utilizador quer atingir, e por fim o icone, se o utilizador pressiona-lo, a estacao 10 ira movimentar-se ate aos valores mencionados nos dois amostradores.
 No canto inferior direito encontra-se um icone, que se o utilizador pressionar, ele direciona-se para outro ecra.
 <br /><br />
@@ -466,7 +466,7 @@ Nas imagens 7 e 8, encontra-se 5 blocos, cada um com o nome, que nos redireciona
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI4.jpg)
 *Imagem 9 - HMI*
 <br /><br />
-Nas imagens 9 e 10, observa-se varios icones com o objetivo de "mexer" manualmente e automaticamente na estacao 19, o icone *Start* faz com que a estacao faca o seu ciclo uma vez, em termos mais praticos da-se o nome de "Modo Ciclo", enquanto que mais abaixo temos um Switch ON/OFF que o objetivo e estar em modo automatico a estacao, ate receber uma ordem de paragem.
+Nas imagens 9 e 10, observa-se varios icones com o objetivo de comandar manualmente e automaticamente na estacao 19, o icone *Start* faz com que a estacao faca o seu ciclo uma vez, em termos mais praticos da-se o nome de "Modo Ciclo", enquanto que mais abaixo temos um Switch ON/OFF que o objetivo e estar em modo automatico a estacao, ate receber uma ordem de paragem.
 No canto inferior esquerdo encontra-se um icone, que se o utilizador pressionar, ele direciona-se para outro ecra.
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI13.png)
 *Imagem 10 - TIA Portal*
@@ -475,7 +475,7 @@ No canto inferior esquerdo encontra-se um icone, que se o utilizador pressionar,
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI5.jpg)
 *Imagem 11 - HMI*
 <br /><br />
-Nas imagens 11 e 12, observa-se varios icones com o objetivo de "mexer" manualmente e automaticamente na estacao 29.
+Nas imagens 11 e 12, observa-se varios icones com o objetivo de comandar manualmente e automaticamente na estacao 29.
 No canto inferior esquerdo encontra-se um icone, que se o utilizador pressionar, ele direciona-se para outro ecra.
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI14.png)
 *Imagem 12 - TIA Portal*
@@ -484,7 +484,7 @@ No canto inferior esquerdo encontra-se um icone, que se o utilizador pressionar,
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI6.jpg)
 *Imagem 13 - HMI*
 <br /><br />
-Nas imagens 13 e 14, observa-se varios icones com o objetivo de "mexer" manualmente e automaticamente na estacao 39.
+Nas imagens 13 e 14, observa-se varios icones com o objetivo de comandar manualmente e automaticamente na estacao 39.
 No canto inferior esquerdo encontra-se um icone, que se o utilizador pressionar, ele direciona-se para outro ecra.
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI15.png)
 *Imagem 14 - TIA Portal*
@@ -493,7 +493,7 @@ No canto inferior esquerdo encontra-se um icone, que se o utilizador pressionar,
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI7.jpg)
 *Imagem 15 - HMI*
 <br /><br />
-Nas imagens 15 e 16, observa-se varios icones com o objetivo de "mexer" manualmente e automaticamente na estacao 49.
+Nas imagens 15 e 16, observa-se varios icones com o objetivo de comandar manualmente e automaticamente na estacao 49.
 No canto inferior esquerdo encontra-se um icone, que se o utilizador pressionar, ele direciona-se para outro ecra.
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI16.png)
 *Imagem 16 - TIA Portal*
@@ -502,7 +502,7 @@ No canto inferior esquerdo encontra-se um icone, que se o utilizador pressionar,
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI8.jpg)
 *Imagem 17 - HMI*
 <br /><br />
-Nas imagens 17 e 18, observa-se varios icones com o objetivo de "mexer" manualmente e automaticamente na estacao 59.
+Nas imagens 17 e 18, observa-se varios icones com o objetivo de comandar manualmente e automaticamente na estacao 59.
 No canto inferior esquerdo encontra-se um icone, que se o utilizador pressionar, ele direciona-se para outro ecra.
 ![](./lines/line31/2020_2021/HMI/Fotos/HMI17.png)
 *Imagem 18 - TIA Portal*
